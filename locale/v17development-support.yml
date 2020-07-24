@@ -1,0 +1,133 @@
+v17development-flarum-support:
+  forum:
+    knowledge_base: "知识库"
+    ask_a_question_on_forums: "找不到答案？在社区中提问"
+    return_to_home: "返回知识库首页"
+    ask_your_question_on_forum: "在社区提问"
+    or: '或'
+    settings: => core.ref.settings
+    send: '发送'
+    create: '创建'
+    discard: '丢弃'
+
+    hero:
+      help_question: "有什么我们可以帮助您的吗？"
+      check_forum: "查无结果？ <a>在社区论坛中提问</a>"
+
+    overview:
+      knowledge_base_overview: "知识库总览"
+      back_to: "返回到 {category}"
+      back_to_overview: "返回到知识库总览"
+      back_to_main_categories: "返回主目录"
+      loading_articles: "加载文章中"
+      no_categories_found: "抱歉, 找不到目录..."
+      category_not_found: "目录未找到"
+      no_articles_found: "此目录中没有文章"
+
+      tools:
+        new_article: "新文章"
+        rename_category: "重命名目录"
+        edit_description: "编辑描述"
+        change_icon: "修改图标"
+
+    article_events:
+      article_hidden: "文章已被 {username} 隐藏"
+      article_public: "文章由 {username} 设为公开"
+      article_modified: "文章已被 {username} 编辑."
+    
+    search:
+      title: 搜索
+      back_to_search_results: "返回到搜索结果"
+      search_knowledge_base: "搜索知识库"
+      searching: 搜索中
+      searching_for: "{searchterm} 的搜索结果"
+      searched_for: "搜索 {searchterm} 的结果, 共计 {results} 条相关内容."
+      use_searchbox_below: "使用下方的搜索条在知识库中搜索."
+      no_results: "我们没有找到任何 {searchterm} 相关的内容."
+
+    not_found:
+      title: "项目不存在"
+      description: "此目录或文章已不存在于此处."
+      solution: "尝试使用上方的搜索栏搜索您正在查找的内容."
+
+    article:
+      article: "文章"
+      articles: "文章"
+      hidden: "隐藏"
+      created_at: "创建于 {date}"
+      author: "作者"
+      authors: "作者"
+      last_modified: "上次修改时间 {date}"
+      not_found: "文章不存在"
+      
+      share_article:
+        title: "分享文章"
+        perma_link: "此文章的永久链接:"
+
+      tools:
+        rename_article: "重命名文章"
+        edit_article: "编辑文章"
+        edit_tags: "编辑文章标签"
+        audit_log: "查看管理日志"
+        hide_article: "隐藏文章"
+        recover_article: "恢复文章"
+        delete_forever: "永久删除"
+        view_ratings: "查看评价"
+
+    # Rating
+    support_ratings:
+      helful_article: "这篇文章有帮助吗?"
+      helful_support: "您对工单处理结果感到满意吗?"
+      feedback: "感谢您的评价！您是否有任何想要反馈的呢?"
+      feedback_not_helpful: "很抱歉这篇文章没有帮助到你，能告诉我们您在查找的是什么吗?"
+      enter_feedback: "在此输入反馈内容"
+      finished: "谢谢！您的反馈已保存."
+
+      validation:
+        invalid_discussion: "Woops, 有什么东西除错了. 你无法评价此文章或工单."
+        guest: "评价文章需要您登录账号."
+        invalid_points: "无效评价. 请再试一次."
+        cannot_rate_article: "你无法评价此文章."
+        neutral_emoji_disabled: "Emoji表情已被禁用."
+        missing_article_id: "无效或缺失文章ID"
+    
+    # Modals
+    modals:
+      audit_log:
+        title: "文章管理日志"
+        article_created: "文章已创建"
+        no_more_events: "找不到更多事件了"
+        loading_auditlog: "正在加载文章管理日志"
+      
+      # Article ratings
+      article_ratings:
+        title: "文章评价"
+        loading_ratings: "加载评价中"
+        no_ratings_found: "找不到符合搜索条件的评价"
+        article_not_rated: "此文章还没有人评价啊."
+        confirm_delete_rating: "你确定想要删除此评价吗?"
+        feedback: "反馈"
+        rating: "评价"
+        username: => core.ref.username
+        rated_on: "评价于"
+
+    utils:
+      redirect:
+        title: "正将您重定向到知识库文章..."
+        link: "如果您的浏览器未跳转，请<a>点击这里</a> "
+
+    composer:
+      compose_article: "撰写文章"
+      new_article_title: "新文章标题"
+      enter_message_here: "在此输入内容"
+      publish_article: "发布文章"
+      publish_article_hint: "撰写后发布文章."
+      manage_tags: "管理标签"
+      write: "撰写"
+      view: "查看"
+      nothing_to_preview: "无可预览内容"
+      warning_save_changes: |
+        警告: 您即将离开此页面但尚未保存您的更改。您要在离开前保存更改吗?
+      
+        [OK] = 确定并保存. [CANCEL] = 不，不要保存
+      article_saved: "文章已被保存"
